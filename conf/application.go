@@ -1,6 +1,7 @@
 package conf
 
 import (
+	"github.com/junyang7/gf/engine/api"
 	"github.com/junyang7/gf/engine/http"
 	"github.com/junyang7/gf/engine/rpc"
 	"github.com/junyang7/gf/engine/web"
@@ -12,6 +13,7 @@ var Application *struct {
 	Http *http.Conf `json:"http"`
 	Web  *web.Conf  `json:"web"`
 	Rpc  *rpc.Conf  `json:"rpc"`
+	Api  *api.Conf  `json:"api"`
 }
 
 func init() {

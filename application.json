@@ -1,6 +1,6 @@
 {
   "web": {
-    "ipv4": "0.0.0.0",
+    "ip": "0.0.0.0",
     "port": "10004",
     "origin": [
       "*"
@@ -9,8 +9,22 @@
   },
   "rpc": {
     "network": "tcp",
-    "address": "0.0.0.0:10005",
-    "appId": "8365174",
-    "appKey": "8djf923j23978dre34"
+    "ip": "0.0.0.0",
+    "port": "10005"
+  },
+  "api": {
+    "ip": "0.0.0.0",
+    "port": "10006",
+    "origin": [
+      "*"
+    ]
+  },
+  "http": {
+    "ip": "0.0.0.0",
+    "port": "10007",
+    "origin": [
+      "*"
+    ],
+    "root": "/Users/junyang7/wd/fun/gf_app/public"
   }
 }

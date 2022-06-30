@@ -6,5 +6,5 @@ import (
 )
 
 func init() {
-	rpc.Router.Post("/rpc/index", &controller.Index{}, "Index")
+	rpc.Router.Any("/rpc/index", &controller.Index{}, "Rpc")
 }
