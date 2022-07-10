@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/junyang7/gf/common"
-	"github.com/junyang7/gf/tool/_rpc"
+	"git.ziji.fun/junyang7/gf/common"
+	"git.ziji.fun/junyang7/gf/tool/_rpc"
 )
 
 func main() {

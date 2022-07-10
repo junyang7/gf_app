@@ -3,10 +3,10 @@ package main
 import (
 	"gf_app/conf"
 	_ "gf_app/router"
-	"github.com/junyang7/gf/engine/api"
-	"github.com/junyang7/gf/engine/http"
-	"github.com/junyang7/gf/engine/rpc"
-	"github.com/junyang7/gf/engine/web"
+	"git.ziji.fun/junyang7/gf/engine/api"
+	"git.ziji.fun/junyang7/gf/engine/http"
+	"git.ziji.fun/junyang7/gf/engine/rpc"
+	"git.ziji.fun/junyang7/gf/engine/web"
 	"sync"
 )
 

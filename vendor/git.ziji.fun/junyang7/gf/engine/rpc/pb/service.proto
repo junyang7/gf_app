@@ -1,0 +1,19 @@
+syntax = "proto3";
+option go_package = "../pb";
+package proto;
+
+
+service Service {
+  rpc Call (Request) returns (Response) {}
+}
+
+
+message Request {
+  string path = 1;
+  map<string,string> data = 2;
+}
+
+
+message Response {
+  bytes response = 1;
+}

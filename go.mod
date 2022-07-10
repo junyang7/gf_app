@@ -2,9 +2,7 @@ module gf_app
 
 go 1.18
 
-require github.com/junyang7/gf v1.0.3
-
-replace github.com/junyang7/gf v1.0.3 => ../gf
+require git.ziji.fun/junyang7/gf v0.0.1
 
 require (
 	github.com/golang/protobuf v1.5.2 // indirect

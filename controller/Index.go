@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"github.com/junyang7/gf/engine/api"
-	"github.com/junyang7/gf/engine/http"
-	"github.com/junyang7/gf/engine/rpc"
-	"github.com/junyang7/gf/tool/_json"
+	"git.ziji.fun/junyang7/gf/engine/api"
+	"git.ziji.fun/junyang7/gf/engine/http"
+	"git.ziji.fun/junyang7/gf/engine/rpc"
+	"git.ziji.fun/junyang7/gf/tool/_json"
 )
 
 type Index struct {
